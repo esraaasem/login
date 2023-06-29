@@ -1,0 +1,81 @@
+html
+{
+    width:100%;
+    height:100%;
+  
+}
+body
+{
+    margin:0;
+    padding: 0;
+    width:100%;
+    height:100%;
+    
+    
+}
+.container
+{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.left
+{
+    background-image: url(../login-html-css-form/doctorlogin.jpg);
+    background-size: cover;
+    width:950px;
+    height: 100vh;
+}
+.right
+{
+    background-color: rgba(141, 148, 155, 0.721);
+    height:100hv;
+    width:100%;
+}
+form
+{
+    border:2px solid white;
+    border-radius: 15px;
+    width:600px;
+    height:300px;
+    margin:80px;
+    margin-top:110px;
+    padding-top: 30px;
+}
+.label
+{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 20px;
+}
+input[type="email"],input[type="password"]
+{
+    width:300px;
+    border-radius: 7px;
+    text-align: center;
+    height:17px;
+}
+.label1
+{
+    display:flex;
+    flex-direction: row;
+    justify-content:center;
+    padding-top:30px;
+}
+.forget
+{
+    text-decoration: underline;
+    color: blue;
+    margin-left: 60px;
+}
+.btn
+{
+    margin-left:250px;
+    margin-top: 50px;
+    width:120px;
+    height: 40px;
+}
+span{
+position: relative;left:50%;border:2px solid black;border-radius: 20px;padding: 5px;}
+
