@@ -21,7 +21,7 @@ body
 }
 .left
 {
-    background-image: url(../login-html-css-form/doctorlogin.jpg);
+    background-image: url(doctorlogin.jpg);
     background-size: cover;
     width:950px;
     height: 100vh;
